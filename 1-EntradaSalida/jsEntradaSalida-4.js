@@ -6,6 +6,6 @@ function Mostar()
 {
 	var dato;
 	dato = prompt ("hola")
-	
+	byId("dato").value = dato;
 }
 
