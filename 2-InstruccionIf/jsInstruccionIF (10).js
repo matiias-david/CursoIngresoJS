@@ -6,7 +6,7 @@ function Mostrar()
 	{alert ("Excelente") }
 	else 
 	if (nota >=7)
-	{alert ("aprobó")}
+	{alert ("Aprobó")}
 	else 
 	if (nota>=4)
 	{alert ("Vamos, la proxima se puede")}

@@ -2,7 +2,7 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	prommp ("hola")
+	prompt ("hola")
     alert ("hola")
     
 }
