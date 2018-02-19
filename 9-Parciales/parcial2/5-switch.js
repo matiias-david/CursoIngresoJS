@@ -2,6 +2,8 @@
 function Mostrar()
 {
 	alert("Funciona 5-Switch");
+	var mesDelAño = document.getElementById("mes").value;
+	
 	
 }
 
