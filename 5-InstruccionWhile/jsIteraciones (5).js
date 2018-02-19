@@ -5,7 +5,7 @@ function Mostrar()
     document.getElementById('Sexo').value=sexo;
     while (sexo !="f" && sexo != 'm' sexo != null)
     {
-        alert ("Ingrese f o m")
+        alert ("dato incorrecto")
 
     }
 
