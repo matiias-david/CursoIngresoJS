@@ -3,8 +3,16 @@ function Mostrar()
 
 	var contador=0;
 	var acumulador=0;
+	var numero;
 
-
+	while (contador<5)
+	{	
+		contador ++;
+		numero = prompt ("Ingrese el numero"); 
+		numero = parseInt (numero);
+		acumulador += numero; 
+		res = acumulador / contador;
+		}
 
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/5;

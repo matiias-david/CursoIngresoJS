@@ -5,13 +5,29 @@ function Mostrar()
 	// declarar variables
 	
 	var respuesta='si';
-
-	while(respuesta!='no')
+	var minimo, maximo, num, primera;
+	while(respuesta!='si')
 	{
-		
+		contador ++;
+		num = prompt ();
+		num = parseInt (num);
+	
+		while (isNaN (num))
+		{
+			num = prompt ();
+			num = parseInt ();
+		}
 	
 	}
-
+	if (primera)
+	{
+		primera = false;
+		maximo = num;
+		minimo = num;}
+	
+	else 
+	{
+	}
 
 
 
