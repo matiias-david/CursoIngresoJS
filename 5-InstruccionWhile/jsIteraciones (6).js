@@ -12,6 +12,7 @@ function Mostrar()
 		numero = parseInt (numero);
 		acumulador += numero; 
 		res = acumulador / contador;
+	
 		}
 
 document.getElementById('suma').value=acumulador;

@@ -25,9 +25,7 @@ function Mostrar()
 		maximo = num;
 		minimo = num;}
 	
-	else 
-	{
-	}
+	
 
 
 

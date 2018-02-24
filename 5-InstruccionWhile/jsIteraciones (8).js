@@ -6,31 +6,32 @@ function Mostrar()
 	var negativo=1;
 	
 	var respuesta='si';
-	var num;
+	var numero;
 
 	while (respuesta == 'si')
 	{ 
-		num = prompt ("Ingrese un numero");
-	num = parseInt();
+		numero = prompt ("Ingrese un numero");
+	numero = parseInt();
 	while (IsNaN (num) )
 	{
-		num = prompt ();
-		num = parseInt ()
+		numero = prompt ();
+		numero = parseInt ()
 	}
 	contador++; 
 
-	if (num > 0 )
+	if (numero > 0 )
 	{
-		positivo += num;	
+		positivo += numero;	
 	}
 	else 
 	{
-		if (num !=0) {
-			negativo *= num;
+		if (numero !=0) {
+			negativo *= numero;
 			contador--;
 		}
-	} }
+	}
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
+
 
 }//FIN DE LA FUNCIÓN
