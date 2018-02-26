@@ -19,9 +19,10 @@ function ComenzarIngreso ()
     // edad 
     edad = prompt ("Ingrese su edad. (Entre 18 y 90)")
     edad = parseInt(edad)
-    while  (edad < 18 || edad > 90 || isNaN (edad))
+    while  (edad < 18 || edad > 90 || edad == null)
 { 
     edad = prompt ("Ingrese su edad nuevamente")
+    edad = parseInt (edad)
 
 } 
 
@@ -49,14 +50,14 @@ function ComenzarIngreso ()
 }
 //Sueldo
     sueldo = prompt ("Ingrese su sueldo (no menor a 8000)")
-    while ( sueldo < 8000 || isNaN (sueldo))
+    while ( sueldo < 8000 || sueldo == null))
     {
     sueldo = prompt ("Error. Ingrese un sueldo no menor a 8000")
     }
         document.getElementById("Sueldo").value = sueldo
 //legajo
     legajo = prompt ("Ingrese su numero de legajo")
-    while (legajo < 1000 || legajo > 9999 || isNaN (legajo))
+    while (legajo < 1000 || legajo > 9999 || legajo == null)
 {
     legajo = prompt ("Error. Ingrese su numero de legajo nuevamente")
 }
