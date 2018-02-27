@@ -1,7 +1,11 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
 {
-	alert("Funciona 1-EntradaSalida");
+	var perimetro = document.getElementById("lado").value;
+	perimetro = parseInt (perimetro)
+	perimetro = perimetro *3;
+
+	alert( "el perimetro es " + perimetro);
 	
 }
 

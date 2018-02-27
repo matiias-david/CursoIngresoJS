@@ -50,7 +50,7 @@ function ComenzarIngreso ()
 }
 //Sueldo
     sueldo = prompt ("Ingrese su sueldo (no menor a 8000)")
-    while ( sueldo < 8000 || sueldo == null))
+    while ( sueldo < 8000 || sueldo == null)
     {
     sueldo = prompt ("Error. Ingrese un sueldo no menor a 8000")
     }

@@ -1,7 +1,9 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
 {
-	alert("Funciona 6-iteraciones");
+	var num = prompt ("Ingrese el dia de la semana que desee. ")
+	var bandera
+	
 	
 }
 
