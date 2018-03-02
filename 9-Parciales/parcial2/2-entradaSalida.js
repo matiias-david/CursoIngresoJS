@@ -6,7 +6,7 @@ function Mostrar()
 	importe = prompt ("Ingrese el importe del producto ")
 	importe = parseInt (importe)
 	final = importe + importe * 0.21;
-	document.getElementById("importe").value = final
+	document.getElementById("importeFinal").value = final
 	
 }
 

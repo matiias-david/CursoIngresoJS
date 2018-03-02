@@ -5,7 +5,6 @@ function Mostrar()
 	var largo = document.getElementById("largo").value;
 	var cuenta;
 	var cuenta = (ancho*2 + largo*2) + 6;
-	alert (cuenta);
-	
+	alert ("se necesitan de alambre" + cuenta + "metros" );	
 }
 

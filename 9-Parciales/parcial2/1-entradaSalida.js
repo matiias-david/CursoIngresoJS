@@ -3,9 +3,9 @@ function Mostrar()
 {
 	var perimetro = document.getElementById("lado").value;
 	perimetro = parseInt (perimetro)
-	perimetro = perimetro *3;
+	perimetro = perimetro * 3;
 
-	alert( "el perimetro es " + perimetro);
+	alert( "el perimetro es  "  +  perimetro);
 	
 }
 
