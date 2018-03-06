@@ -8,29 +8,26 @@ function Mostrar()
 	var respuesta='si';
 	var numero;
 
-	while (respuesta == 'si')
-	{ 
-		numero = prompt ("Ingrese un numero");
-	numero = parseInt();
-	while (IsNaN (num) )
-	{
-		numero = prompt ();
-		numero = parseInt ()
-	}
-	contador++; 
+	do{
+		numero = parseInt(prompt("Ingrese numeros"));
 
-	if (numero > 0 )
+	if (numero >= 0)
 	{
-		positivo += numero;	
+		positivo = positivo + numero;
 	}
-	else 
+	else
 	{
-		if (numero !=0) {
-			negativo *= numero;
-			contador--;
-		}
+		negativo = negativo * numero;
+		contadorNeg++;
 	}
+	respuesta = prompt("Desea continuar?");
+	}while(respuesta == 's');
+
 document.getElementById('suma').value=positivo;
+if (contadorNeg==0)
+	{
+		negativo = 0;
+	}
 document.getElementById('producto').value=negativo;
 
 

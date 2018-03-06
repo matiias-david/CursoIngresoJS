@@ -10,8 +10,8 @@ function Mostrar()
 	while(respuesta == "si")
 	{
 		numero = parseInt(prompt("Ingrese los digitos"));
-		acumulador = acumulador + numero;
-		contador = contador + 1;
+		acumulador += numero;
+		contador++;
 		respuesta = prompt("desea continuar?");
 	}
 	

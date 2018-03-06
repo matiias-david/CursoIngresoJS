@@ -10,5 +10,8 @@ function Mostrar()
 	else 
 	if (nota>=4)
 	{alert ("Vamos, la proxima se puede")}
+	else {
+		alert ("no se presento al examen")
+	}
 
 }//FIN DE LA FUNCIÓN
