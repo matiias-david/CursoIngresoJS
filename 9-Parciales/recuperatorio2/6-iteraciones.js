@@ -8,11 +8,11 @@ function Mostrar()
 
     for(var i=1; i<=7;i++)
 {
-	venta = parseFloat(prompt("ingrese importe venta: "));
+	venta = parseInt(prompt("ingrese importe venta: "));
 }
     if (venta > 0)
     {
-        venta = parseFloat(prompt("Error. El importe de venta debe ser mayor a 0. Reingrese"));
+        venta = parseInt(prompt("Error. El importe de venta debe ser mayor a 0. Reingrese"));
 
     }
     if (venta > ventaMayor || flag ==0 )

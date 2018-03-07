@@ -11,12 +11,12 @@ function Mostrar()
 
     for (i = 0; i < 6; i++) {
         nota = parseInt(prompt("Ingrese nota: "));
-        while (nota < 0 || nota > 10) {
+        while (nota < 0 || nota > 10 ) {
             nota = parseInt(prompt("Error. La nota debe estar entre 0 y 10. Reingrese: "));
         }
         sexo = prompt("Ingrese sexo: ");
 
-        while (sexo != 'f' && sexo != 'm') {
+        while (sexo != 'f' && sexo != 'm' && sexo != null) {
             sexo = prompt("Error. El sexo debe ser f o m. Reingrese sexo: ");
         }
         acumNotas += nota;
