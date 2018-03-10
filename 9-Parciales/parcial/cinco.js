@@ -12,7 +12,7 @@ function Mostrar()
         case "11": 
             alert ("mañana");
         horaDelDia = parseInt (horaDelDia)
-        if(horaDelDia > 6 || horaDelDia < 11);
+        if(horaDelDia >=11);
         {
             alert ("a desayunar");
         }
@@ -39,7 +39,7 @@ function Mostrar()
         case "5": 
             alert ("es de noche")
         horaDelDia = parseInt (horaDelDia);
-        if (horaDelDia >24 || horaDelDia < 6){
+        if (horaDelDia <= 6){
             alert ("me voy a escabiar")
         }
 
