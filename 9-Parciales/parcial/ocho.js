@@ -8,16 +8,16 @@ function Mostrar()
         {
             temperatura = prompt ("Ingrese temperatura: ")
             temperatura = parseInt(temperatura);
-            while(temperatura < -100 || temperatura > 100 || isNaN(temperatura) )
-            {
-                temperatura = prompt ("Ingrese temperatura: ");
-                temperatura = parseInt(temperatura);
+        while(temperatura < -100 || temperatura > 100 || isNaN(temperatura) )
+        {
+            temperatura = prompt ("Ingrese temperatura: ");
+            temperatura = parseInt(temperatura);
             } 
-                nombre = prompt ("Ingrese un nombre: ")            
-                while ( ! isNaN(nombre))
-                {
+            nombre = prompt ("Ingrese un nombre: ")            
+        while ( ! isNaN(nombre))
+        {
                     nombre = prompt ("Ingrese un nombre: ");
-                }
+            }
             
             
             
