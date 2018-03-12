@@ -6,8 +6,8 @@ function Mostrar()
     var nombre;
     var tempMinima;
     var tempMaxima;
-    var tempPAr;
-    var tempImpar;
+    var tempPAr = 0;
+    var tempImpar = 0;
     var tempMaximaNombre;
     var tempMinimaNombre; 
         while(respuesta != "no" )//este es el inicio de la llave while
